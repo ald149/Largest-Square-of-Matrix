@@ -1,9 +1,5 @@
 /*
 Name: Andrew Darby
-PSU ID; ald149
-Course: CMPSC 465
-Due: 10/31/2021
-Time of last Modification: 10/28/2021
 What does it do: Program reads in integers from txt file.  The integers make up a matrix of 1's and 0's.  The program inputs the 
 size of the matrix and the values, and then uses dynamic programming to determine the area of the largest square of 1's
 */
@@ -49,7 +45,7 @@ int main()
 		
 		row = wholeFile.front();				//size of row is first element
 		wholeFile.erase(wholeFile.begin());		
-		col = wholeFile.front();				//sizwe of columns is second element
+		col = wholeFile.front();				//size of columns is second element
 		wholeFile.erase(wholeFile.begin());	
 				
 		// establish dimensions of 2D vector that stores matrix
